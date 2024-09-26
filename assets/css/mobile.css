@@ -1,0 +1,119 @@
+@media screen and (max-width: 2560px) {
+    form{
+        height: 55vh;
+        width: 20%;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    form{
+        height: 40vh;
+        width: 20%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    form{
+        height: 55vh;
+        width: 40%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    form{
+        height: 55vh;
+        width: 50%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    form{
+        height: 23vh;
+        width: 60%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    form{
+        height: 50vh;
+        width: 80%  ;
+    }
+  
+    form button{
+        margin: 3px;
+        font-size: 14px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    form{
+        height: 38vh;
+        width: 80%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        font: 14px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    form{
+        height: 48vh;
+        width: 80%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        font: 14px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    form{
+        height: 23vh;
+        width: 80%  ;
+    }
+    form h3{
+        font-size: 25px;
+    }
+    form button{
+        font: 10px;
+        width: 120px;
+    }
+}

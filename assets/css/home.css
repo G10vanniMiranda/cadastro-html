@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+header{
+    color: #fff;
+    background-color: blueviolet;
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+button{
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    height: 40px;
+    margin: 5px;
+   
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    opacity: .5;
+    transition: .9s;
+}
+#btn_cadastrar{
+    background-color: blue;
+}
+#btn_sair{
+    width: 60px;
+    background-color: red;
+}
+button:hover{
+    opacity: 1;
+    font-size: 18px;
+
+    transform: scale(1.2);
+}

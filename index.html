@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <script defer src="./assets/js/index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
@@ -17,73 +19,5 @@
         <button type="button" id="entrar">Entrar</button>
         <button type="button" id="novo">Criar uma conta</button>
     </form>
-
-    <style>
-        *{
-            margin: 0;
-        }
-        body{
-            height: 100vh;
-            display: flex;
-
-            overflow: hidden;
-        }
-        img{
-            width: 80%;
-        }
-        form{
-            padding-top: 100px;
-            width: 20%;
-            background-color: #1c1c1c;
-
-            gap: 10px;
-            display: flex;
-            flex-direction: column;
-        }
-        form h3{
-            color: white;
-            font-size: 40px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        input, button{
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 7px;
-            outline: none;
-
-            font-size: 18px;
-        }
-    </style>
-    
-    <script>
-        var user = "giovanni";
-        var senha = "123456"
-
-        var user2 = "rodrigo";
-        var senha2 = "123456"
-
-        var entrar = document.querySelector('#entrar')
-        var novo = document.querySelector('#novo')
-
-        var email = document.querySelector('#email')
-        var senha = document.querySelector('#senha')
-
-        entrar.onclick = () => {
-            if(email.value !== user){
-                alert('Usuario não encontrado')
-                return false
-            }
-            window.location.href = "home.html"
-            alert('Seja bem vindo ' + user)
-        }
-
-
-        novo.onclick = () => {
-              window.location.href = "cadastrar.html"
-        }
-    </script>
-   
 </body>
 </html>

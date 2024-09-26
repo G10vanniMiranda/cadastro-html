@@ -2,6 +2,8 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <script defer src="./assets/js/home.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
@@ -16,71 +18,5 @@
     </header>
 
     <button>Entrar</button>
-
-    <style>
-        *{
-            margin: 0;
-        }
-        header{
-            color: #fff;
-            background-color: blueviolet;
-            height: 10vh;
-            
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            padding: 20px;
-        }
-
-        button{
-            font-size: 16px;
-            color: #fff;
-            padding: 10px;
-            height: 40px;
-            margin: 5px;
-           
-            border-radius: 7px;
-            border: none;
-            cursor: pointer;
-            opacity: .5;
-            transition: .9s;
-        }
-        #btn_cadastrar{
-            background-color: blue;
-        }
-        #btn_sair{
-            width: 60px;
-            background-color: red;
-        }
-        button:hover{
-            opacity: 1;
-            font-size: 18px;
-
-            transform: scale(1.2);
-        }
-    </style>
-
-    <script>
-        var btn_sair = document.querySelector('#btn_sair')
-        console.log(btn_sair)
-
-        /* exemplo 1
-        btn_sair.onclick = function() {
-            alert('Saindo 1')
-        }
-        */
-        btn_sair.onclick = function() {
-
-            var confirm = window.confirm('Deseja sair ?')
-            
-            if(confirm == true){
-                alert('Saindo 2')
-
-                window.location.href = "https://youtube.com.br"
-            }
-        }
-    </script>
-   
 </body>
 </html>
